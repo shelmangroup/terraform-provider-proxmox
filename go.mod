@@ -2,6 +2,8 @@ module github.com/Telmate/terraform-provider-proxmox
 
 go 1.19
 
+replace github.com/Telmate/proxmox-api-go => ../proxmox-api-go
+
 require (
 	github.com/Telmate/proxmox-api-go v0.0.0-20230411210559-73bbbf4297e1
 	github.com/google/uuid v1.3.0
